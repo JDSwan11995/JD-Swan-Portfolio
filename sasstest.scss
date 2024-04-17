@@ -1,0 +1,47 @@
+$backgroundOne: #112055;
+$backgroundTwo: #4f9d92;
+$colorOne: white;
+$colorTwo: black;
+
+%box-properties {
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 4px 3px 19px 0px rgba(0, 0, 0, 0.3);
+  &:hover{
+    box-shadow:none;
+  }
+}
+
+.box__wrapper {
+  @extend %box-properties;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.box-primary {
+  @extend %box-properties;
+  background-color: $backgroundOne;
+  color: $colorOne;
+}
+
+.box-primary-lighter {
+  @extend %box-properties;
+  background-color: lighten($backgroundOne, 15%);
+}
+
+.box-primary-darker {
+  @extend %box-properties;
+  background-color: darken($backgroundOne, 15%);
+  color: $colorOne;
+}
+
+.box-secondary {
+  @extend %box-properties;
+  background-color: $backgroundTwo;
+  color: $colorTwo;
+}
+
+
