@@ -278,6 +278,8 @@ button:hover, button:focus,.button:hover, .button:focus{
 	h2 {
 		font-size: var(--base-font);
 	}
+    .grid .grid__item:last-child{
+        grid-column: 1/-1;}
 }
 @media all and (max-width: 500px){
 	.grid{
