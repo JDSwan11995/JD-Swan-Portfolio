@@ -295,18 +295,18 @@ button:hover, button:focus,.button:hover, .button:focus{
 		-ms-grid-columns: 1fr;
 		grid-template-columns: 1fr;
 	}
-	/* .banner{
-		font-size: var(--big-font);
-	} */
+	.banner-img{
+		max-height: 300px;
+	}
 }
 @media all and (min-width:500px) and (max-width: 750px){
 	.grid {
 		-ms-grid-columns: 1fr 10px 1fr;
 		grid-template-columns: 1fr 1fr;
 	}
-	/* .banner{
-		font-size:var(--bigger-font);
-	} */
+	.banner-img{
+		max-height: 200px;
+	}
 }
 svg * {
     transform-box: fill-box;
