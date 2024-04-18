@@ -202,6 +202,7 @@ button:hover, button:focus,.button:hover, .button:focus{
 .outside-logos{
 	outline: none;
 	border: none;
+	display:row;
 }
 #to-the-topper {
 	font-size: var(--small-font);
