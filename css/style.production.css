@@ -195,7 +195,7 @@ button:hover, button:focus,.button:hover, .button:focus{
 	font-weight: var(--thick);
 	font-variant: small-caps;
 }
-#outside-logos{
+.outside-logos{
 	outline: none;
 	border: none;
 }
