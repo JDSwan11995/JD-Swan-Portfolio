@@ -49,6 +49,7 @@ header {
 	width: 100%;
 	padding: 20px;
 	margin:0 auto;
+	overflow: hidden;
 }
 .page-header__item {
 	-webkit-box-flex: 0;
@@ -70,7 +71,10 @@ header {
 	    -ms-flex-align: center;
 	        align-items: center;
 	width: auto;
-	font-size: 36px;
+margin: 0 auto;
+}
+.banner-img{
+	width: 100%;
 }
 .j-logo{
 	max-height: 85px;
@@ -270,9 +274,6 @@ button:hover, button:focus,.button:hover, .button:focus{
 		grid-column: auto/auto;
 		grid-row: auto/auto;
 	}
-	h2 {
-		font-size: var(--base-font);
-	}
     .grid .grid__item:last-child{
         grid-column: 1/-1;}
 }
@@ -281,18 +282,18 @@ button:hover, button:focus,.button:hover, .button:focus{
 		-ms-grid-columns: 1fr;
 		grid-template-columns: 1fr;
 	}
-	.banner{
+	/* .banner{
 		font-size: var(--big-font);
-	}
+	} */
 }
 @media all and (min-width:500px) and (max-width: 750px){
 	.grid {
 		-ms-grid-columns: 1fr 10px 1fr;
 		grid-template-columns: 1fr 1fr;
 	}
-	.banner{
+	/* .banner{
 		font-size:var(--bigger-font);
-	}
+	} */
 }
 svg * {
     transform-box: fill-box;
