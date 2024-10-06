@@ -1,0 +1,3 @@
+Extensions used: HTMLHint, Stylelint, Linter by Nando Vieira.
+Issues found in CBT: Banner Image appears too large in small resolution screens. NavBar appears crumpled during same. Final box in work.html not occupying full space in medium resolution screens. Outside-logos were in vertical orientation.
+Solutions taken to fix issues: adjusted the titles and classes of image element and parents for clarity, adjusted parameters for .banner and .banner-img to allow for better sizing of image. Took Jubril's advice regarding the layout for final box in work.html, set media limits that adjusted the size final box would occupy at different resolutions. Adjusted classes and ids for outside-logos so that I could adjust them to horizontal orientation and for clarity.
